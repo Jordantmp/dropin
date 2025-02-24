@@ -18,6 +18,6 @@ dropinShelf.addEventListener('drop', (e) => {
   const files = e.dataTransfer.files;
   if (files.length > 0) {
     alert(`You dropped ${files.length} file(s).`);
-    // You can process the files here (e.g., upload or display them)
+    // You can process the files here (e.g., display them in the UI)
   }
 });
